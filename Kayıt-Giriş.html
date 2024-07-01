@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dexen - Hoş Geldiniz</title>
+<link rel="stylesheet" type="text/css" href="Dexen.css">
+<style type="text/css">
+	body {
+		background: #000b2b;
+		font-size: 10px;
+		font-family: Trebuchet MS;
+	}
+
+	#form {
+
+		border-radius: 10px;
+		background: #05051e;
+		width: 360px;
+		margin: auto;
+		margin-top: 20px;
+		padding: 15px;
+		text-align: center;
+	}
+
+	input,
+	button {
+		border-radius: 5px;
+		border: none;
+		width: 300px;
+		height: 50px;
+		margin: 20px 0px 20px 0px;
+		background: #05051e;
+		padding-left: 15px;
+		font-style: italic;
+		color: white;
+	}
+
+	.btn {
+		background: #FFF200;
+		color: black;
+	}
+
+	h3 {
+		color: #333;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+
+	#logo {
+		width: 175px;
+		height: 66px;
+		float: left;
+	}
+
+	footer {
+		background-color: #05051e;
+		height: 400px;
+	}
+
+	#logo2 {
+		width: 175px;
+		height: 66px;
+		float: left;
+		margin: 100px;
+	}
+
+	#hak {
+		color: white;
+		height: 300px;
+		width: 550px;
+		margin: 75px;
+		position: absolute;
+		left: 500px;
+	}
+
+	#ilt {
+		color: white;
+		height: 300px;
+		width: 400px;
+		margin: 75px;
+		position: absolute;
+		right: 100px;
+	}
+
+	.ibox {
+		width: 15px;
+		height: 15px;
+	}
+
+	.ibox img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+</style>
+</head>
+
+<body>
+	<div id="logo"><a href="Anasayfa.html"><img src="Dexen.png"></a></div>
+	<div id="form">
+		<form action="Anasayfa (Üye).html" method=get>
+			<h3>Giriş Formu</h3>
+			<input type="email" name="eposta" placeholder="eposta giriniz" required />
+			<input type="password" name="parola" placeholder="şifrenizi giriniz" required pattern="[0-9a-zA-Z]{5}" />
+			<input class="btn" type="submit" value="GİRİŞ YAP" />
+		</form>
+	</div>
+	<div id="form">
+		<form action="Anasayfa (Üye).html" method=get>
+			<h3>Kayıt Formu</h3>
+			<input type="text" name="adiniz" placeholder="kullanıcı adı" required maxlength="6" />
+			<input type="email" name="eposta" placeholder="eposta giriniz" required />
+			<input type="password" name="parola" placeholder="şifrenizi giriniz" required pattern="[0-9a-zA-Z]{5}" />
+			<input class="btn" type="submit" value="KAYIT OL" />
+		</form>
+	</div>
+	<footer>
+		<div id="logo2"><img src="Dexen2.png"></div>
+		<div id="hak">
+			<big>Hakkımızda</big><br>
+			<hr><br>
+			<h5><a href="">Yardım Merkezi</a></h5>
+			<h5><a href="">Sözleşmeler</a></h5>
+			<h5><a href="">Politikalar</a></h5>
+			<h5><a href="">Kullanım Şartları</a></h5>
+			<h5><a href="">Kurumsal Bilgiler</a></h5>
+		</div>
+		<div id="ilt">
+			<big>İletişim</big><br>
+			<hr><br>
+			<h5>dexenofical@hotmail.com</h5>
+			<h5>dexenofical@gmail.com</h5>
+			<h5>+90 500 000 00 00</h5>
+			<div class="ibox">
+				<div><a href="https://www.instagram.com/?hl=tr"><img src="İletişim\inst.jpg"></a></div>
+				<div><a href="https://www.youtube.com"><img src="İletişim\ytb.jpg"></a></div>
+				<div><a href="https://twitter.com"><img src="İletişim\twt.png"></a></div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
