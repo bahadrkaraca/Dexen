@@ -43,5 +43,3 @@ To get started with the Dexen project, follow these steps:
 
 - Modify the HTML and CSS files to customize the content and styles as needed.
 - Use the project as a template for creating other responsive film and TV series watching websites.
-
-## Contributing
